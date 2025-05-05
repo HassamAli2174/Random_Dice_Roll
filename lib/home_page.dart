@@ -47,7 +47,9 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               TextButton(
                 onPressed: rollDice,
-                style: TextButton.styleFrom(),
+                style: TextButton.styleFrom(
+                  backgroundColor: const Color.fromARGB(255, 99, 148, 233),
+                ),
                 child: StyledText(text: 'Click it'),
               ),
             ],

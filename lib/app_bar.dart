@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class SleekAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
-  Size get preferredSize => Size.fromHeight(70);
+  Size get preferredSize => Size.fromHeight(35);
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class SleekAppBar extends StatelessWidget implements PreferredSizeWidget {
                 color: Colors.white,
               ),
             ),
-            centerTitle: true,
+            // centerTitle: true,
             actions: [
               IconButton(
                 icon: Icon(Icons.settings, color: Colors.white),
