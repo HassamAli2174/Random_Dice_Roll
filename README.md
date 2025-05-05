@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/d1ba27f5-12ff-446a-9507-690cdaaf4928)
+
+
 # dice_app
 
 A new Flutter project.
