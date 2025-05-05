@@ -1,3 +1,4 @@
+import 'package:dice_app/app_bar.dart';
 import 'package:dice_app/styled_text.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
@@ -24,6 +25,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: SleekAppBar(),
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
