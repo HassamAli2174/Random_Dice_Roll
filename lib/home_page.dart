@@ -3,6 +3,8 @@ import 'package:dice_app/styled_text.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 
+final randomizer = Random();
+
 class MyHomePage extends StatefulWidget {
   MyHomePage({super.key, required this.color});
 
@@ -17,7 +19,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void rollDice() {
     setState(() {
-      currentNumber = Random().nextInt(6) + 1;
+      currentNumber = randomizer.nextInt(6) + 1;
     });
     print('Image Changed too... $currentNumber');
   }
